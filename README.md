@@ -7,9 +7,15 @@
 
 
 
+## .env
+
+###### Erstelle eine .env Datei, in die du den Bot Token einfügst
+
+```bash
+TOKEN = Discord Bot Token
+```
+
 ## requirements.txt
-
-
 
 ```bash
 py-cord
@@ -17,6 +23,11 @@ python-dotenv
 aiosqlite
 ```
     
+#### Um diese Abhängigkeiten zu installieren, können Sie folgenden Befehl in Ihrer Kommandozeile ausführen:
+
+ ```bash
+pip install -r requirements.txt
+```   
 ## Authors
 
 - [@kainow-code](https://github.com/kainow-code)
